@@ -10,7 +10,7 @@ from keras.models import load_model
 import streamlit as st 
 
 
-st.title('Stock Market Prediction')
+st.title('Stock Market Analysis')
 user_input = st.text_input('Enter Stock Ticker', 'TATAPOWER.NS')
 
 #  Date selection
